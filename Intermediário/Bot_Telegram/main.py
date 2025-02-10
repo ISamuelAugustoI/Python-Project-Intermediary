@@ -25,7 +25,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Configuração Principal do Bot:
 def main():
-    TOKEN = '7800848537:AAFLhrIv-W_qkHsrW_H1j7IGbTAbmwo4POI'
+    TOKEN = ''
 
     # Configurar o Bot com o ApplicationBuilder:
     application = ApplicationBuilder().token(TOKEN).build()
